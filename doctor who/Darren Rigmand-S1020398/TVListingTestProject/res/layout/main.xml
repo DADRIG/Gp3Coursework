@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:id="@+id/vwSwitch">
+
+
+
+	<RelativeLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="#000000">
+		<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="Tv Listings App" android:layout_width="wrap_content"
+			android:id="@+id/textView1" android:textColor="#87CEFA"
+			android:layout_height="wrap_content" android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true" android:layout_marginTop="77dp"
+			android:textSize="45dp"></TextView>
+		<Button android:textStyle="bold" android:background="@drawable/tv"
+			android:textSize="45dp" android:layout_width="75dp"
+			android:layout_height="50dp" android:id="@+id/button"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true" android:layout_marginBottom="98dp"></Button>
+		<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="Click On Tv To Start" android:layout_width="wrap_content"
+			android:id="@+id/textView2" android:layout_height="wrap_content"
+			android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+			android:textSize="25dp"
+			android:textStyle="bold"
+			></TextView>
+
+
+
+	</RelativeLayout>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="#FFF">
+
+
+		<ImageView android:id="@+id/channelPicture"
+			android:layout_width="300px" android:layout_height="75px"
+			android:layout_marginTop="100dp" android:layout_marginLeft="61dp"
+			android:layout_gravity="center" />
+
+		<ScrollView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_marginTop="125dp"
+			android:layout_below="@+id/dayspinner">
+
+			<RelativeLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/urlResponse"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentLeft="true" android:layout_marginLeft="16dp"
+					android:layout_marginTop="200dp" android:textSize="15dp"
+					android:typeface="serif" android:textColor="#CC3220">
+
+				</TextView>
+
+
+
+
+
+			</RelativeLayout>
+
+
+
+
+		</ScrollView>
+		<Spinner android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/dayspinner"
+			android:prompt="@string/dayPrompt" android:layout_alignParentRight="true"></Spinner>
+		<Spinner android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/channelspinner"
+			android:prompt="@string/channelPrompt"
+			android:layout_alignParentLeft="true" android:layout_alignBottom="@+id/dayspinner"></Spinner>
+
+
+		<ImageView android:id="@+id/channelPicture"
+			android:layout_width="300px" android:layout_height="75px"
+			android:layout_marginTop="100dp" android:layout_gravity="top" />
+
+
+
+	</RelativeLayout>
+</ViewSwitcher>

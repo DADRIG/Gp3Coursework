@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HttpTestActivity!</string>
+    <string name="app_name">Tv Guide</string>
+    <string name= "dayPrompt"> </string>
+     <string name= "channelPrompt"> </string>
+</resources>

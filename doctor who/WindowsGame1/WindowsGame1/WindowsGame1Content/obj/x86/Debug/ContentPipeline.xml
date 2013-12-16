@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Audio\Thrust.wav</Source>
+      <Name>Audio\Thrust</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\Thrust.xnb</Output>
+      <Time>2013-12-13T19:10:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\engine_2.wav</Source>
+      <Name>Audio\engine_2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\engine_2.xnb</Output>
+      <Time>2013-11-11T10:18:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\explosion2.wav</Source>
+      <Name>Audio\explosion2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\explosion2.xnb</Output>
+      <Time>2013-11-11T10:18:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\shot007.wav</Source>
+      <Name>Audio\shot007</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\shot007.xnb</Output>
+      <Time>2013-11-11T10:18:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\tardisEdit.wav</Source>
+      <Name>Audio\tardisEdit</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\tardisEdit.xnb</Output>
+      <Time>2013-11-11T10:18:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\ray_gun.wav</Source>
+      <Name>Audio\ray_gun</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\ray_gun.xnb</Output>
+      <Time>2013-11-11T10:53:50+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Scream.wav</Source>
+      <Name>Audio\Scream</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\Scream.xnb</Output>
+      <Time>2013-12-05T16:59:16+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Battery.fbx</Source>
+      <Name>Models\Battery</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Battery.xnb</Output>
+      <Time>2013-12-05T09:33:06+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Battery_0.xml</Key>
+        <Value>2013-12-16T08:50:22+00:00</Value>
+      </Dependency>
+      <Request>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Battery_UVW_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Alien Character.fbx</Source>
+      <Name>Models\Alien Character</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Alien Character.xnb</Output>
+      <Time>2013-12-05T16:44:24+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Alien Character_0.xml</Key>
+        <Value>2013-12-16T08:50:28+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\wasphunter.FBX</Source>
+      <Name>Models\wasphunter</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\wasphunter.xnb</Output>
+      <Time>2013-12-10T15:32:20+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\wasphunter_0.xml</Key>
+        <Value>2013-12-16T08:50:30+00:00</Value>
+      </Dependency>
+      <Request>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\wasphunter_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\uhfsat.fbx</Source>
+      <Name>Models\uhfsat</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\uhfsat.xnb</Output>
+      <Time>2013-03-17T12:36:10+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\uhfsat_0.xml</Key>
+        <Value>2013-12-16T08:50:34+00:00</Value>
+      </Dependency>
+      <Request>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\uhf bump_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\retro_rocket.fbx</Source>
+      <Name>Models\retro_rocket</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationX">225</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\retro_rocket.xnb</Output>
+      <Time>2012-08-10T15:56:38+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\retro_rocket_0.xml</Key>
+        <Value>2013-12-16T08:50:42+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Grenade.fbx</Source>
+      <Name>Models\Grenade</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Grenade.xnb</Output>
+      <Time>2013-12-12T12:23:52+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Grenade_0.xml</Key>
+        <Value>2013-12-16T08:50:44+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Audio\tardis.mp3</Source>
+      <Name>Audio\tardis</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\tardis.xnb</Output>
+      <Extra>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\tardis.wma</Extra>
+      <Time>2013-11-11T10:18:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Please.mp3</Source>
+      <Name>Audio\Please</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\Please.xnb</Output>
+      <Extra>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\Please.wma</Extra>
+      <Time>2013-12-15T00:26:42+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Voldemort.mp3</Source>
+      <Name>Audio\Voldemort</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\Voldemort.xnb</Output>
+      <Extra>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\Voldemort.wma</Extra>
+      <Time>2013-12-15T15:15:58+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\DrWho.spritefont</Source>
+      <Name>Fonts\DrWho</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Fonts\DrWho.xnb</Output>
+      <Time>2013-11-11T11:06:32+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Font.spritefont</Source>
+      <Name>Fonts\Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Fonts\Font.xnb</Output>
+      <Time>2013-11-19T15:30:04+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\wasphunter_texture.jpg</Source>
+      <Name>Models\wasphunter_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\wasphunter_texture.xnb</Output>
+      <Time>2013-12-10T15:33:58+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\space.png</Source>
+      <Name>Textures\space</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\space.xnb</Output>
+      <Time>2013-12-09T10:34:58+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\farback.jpg</Source>
+      <Name>Textures\farback</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\farback.xnb</Output>
+      <Time>2013-12-09T11:43:08+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\spoderman.png</Source>
+      <Name>Textures\spoderman</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\spoderman.xnb</Output>
+      <Time>2013-12-12T19:17:50+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\fire.png</Source>
+      <Name>Textures\fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\fire.xnb</Output>
+      <Time>2013-12-13T12:06:04+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\startscreen.png</Source>
+      <Name>Textures\startscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\startscreen.xnb</Output>
+      <Time>2013-12-16T10:26:30+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\touch.jpg</Source>
+      <Name>Textures\touch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\touch.xnb</Output>
+      <Time>2013-12-15T16:16:38+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Battery.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Battery_0.xml</Output>
+      <Time>2013-12-05T09:33:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Battery_UVW.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\Battery_UVW_0.xnb</Output>
+      <Time>2013-12-05T09:29:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Alien Character.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Alien Character_0.xml</Output>
+      <Time>2013-12-05T16:44:24+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\wasphunter.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\wasphunter_0.xml</Output>
+      <Time>2013-12-10T15:32:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\wasphunter_texture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\wasphunter_texture_0.xnb</Output>
+      <Time>2013-12-10T15:33:58+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\uhfsat.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\uhfsat_0.xml</Output>
+      <Time>2013-03-17T12:36:10+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\uhf bump.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Models\uhf bump_0.xnb</Output>
+      <Time>2013-01-23T09:04:16+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\retro_rocket.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\retro_rocket_0.xml</Output>
+      <Time>2012-08-10T15:56:38+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Grenade.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Grenade_0.xml</Output>
+      <Time>2013-12-12T12:23:52+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\win.png</Source>
+      <Name>Textures\win</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Textures\win.xnb</Output>
+      <Time>2013-12-16T11:05:14+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Obsidia.mp3</Source>
+      <Name>Audio\Obsidia</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\Obsidia.xnb</Output>
+      <Extra>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Audio\Obsidia.wma</Extra>
+      <Time>2013-12-16T11:30:32+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1Content\</RootDirectory>
+      <LoggerRootDirectory>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\doctor who\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T11:41:18+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T11:41:18+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T11:41:18+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T11:41:18+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T11:41:18+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T11:41:18+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-09-16T14:31:57.7164426+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

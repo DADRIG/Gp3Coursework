@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="channelPrompt">
+
+<item>BBC 1</item>
+<item>BBC 2</item>
+<item>BBC 3</item>
+<item>Sky Action</item>
+<item>Uk Gold</item>
+<item>Boomerang</item>
+<item> Eurosport</item>
+<item>Extreme Sports</item>
+<item>Challenge</item>
+
+</string-array>
+    <string-array name="dayPrompt">
+        <item>Today</item>
+        <item>Tommorow</item>
+        <item>Next 2 Days</item>
+        <item>Next 3 Days</item>
+        <item>Next 4 Days</item>
+        <item>Next 5 Days</item>
+        <item>Next 6 Days</item>
+        <item>Yesterday</item>
+    </string-array> 
+
+</resources>
